@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>arm_controller</name>
+  <version>0.0.1</version>
+  <description>ROS2 node to control a robotic arm via keyboard or service calls.</description>
+
+  <!-- License and maintainer -->
+  <maintainer email="your.email@example.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Build system dependency -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Required ROS 2 dependencies -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>example_interfaces</exec_depend>
+
+  <!-- Optional dependency (only needed for keyboard control) -->
+  <exec_depend>pynput</exec_depend>
+
+  <!-- Export information -->
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
