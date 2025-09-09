@@ -60,7 +60,7 @@ You can manually control joints to make sure there isn't a mdchanical robot side
 
 ### GitHub details
 
-The Ressources folder contains PDF files relatives to the PCB recycling topic, we mainly used those to get a grasp on the subject and identify the issues with the current regulations and procedures. There is also the package.xml file mentionned earlier.
+The Information_Documetns folder contains PDF files relatives to the PCB recycling topic, we mainly used those to get a grasp on the subject and identify the issues with the current regulations and procedures. There is also the package.xml file mentionned earlier.
 
 PCB_Components_Recognition_Yolo is the folder related to the AI detection of PCB components with every program used to train and test the AI on databases as well as the code responsible for creating coordinates based on photos taken with Tiago.
 
